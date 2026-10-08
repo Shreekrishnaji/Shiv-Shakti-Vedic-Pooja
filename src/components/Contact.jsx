@@ -32,8 +32,8 @@ export default function Contact() {
     formData.delete("phone_number"); // Clean up standard input name
 
     // Replace with your Web3Forms Access Key
-    formData.append("access_key", "YOUR_WEB3FORMS_ACCESS_KEY");
-    formData.append("subject", "New Inquiry from Ananta Website");
+    formData.append("access_key", "c71fd7c8-8646-47c5-b5a9-26793548b1b5");
+    formData.append("subject", "New Inquiry from Website");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
