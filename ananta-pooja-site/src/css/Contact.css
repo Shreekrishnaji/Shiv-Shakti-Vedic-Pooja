@@ -1,0 +1,132 @@
+.contact-section {
+  padding: 5rem 2rem;
+  background-color: rgb(255, 233, 224);
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+  font-size: 1.05rem;
+  color: #666666;
+  margin-bottom: 2.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  text-align: left;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #1a1a1a;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact-btn {
+  padding: 0.9rem 1.5rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.contact-btn:hover {
+  background-color: orangered;
+}
+
+.success-message {
+  padding: 1rem;
+  background-color: #e6f4ea;
+  color: #137333;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.contact-btn:disabled {
+  background-color: #777777;
+  cursor: not-allowed;
+}
+
+.error-message {
+  padding: 1rem;
+  background-color: #fce8e6;
+  color: #c5221f;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Inline group for phone input and country code selector */
+.phone-input-group {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.country-code-select {
+  padding: 0.8rem 0.6rem;
+  font-size: 0.95rem;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #333333;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.country-code-select:focus {
+  border-color: #1a1a1a;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.phone-input-group input {
+  flex: 1;
+}

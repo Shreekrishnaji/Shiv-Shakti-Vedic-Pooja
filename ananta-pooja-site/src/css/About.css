@@ -1,0 +1,97 @@
+.about-section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 5rem;
+  box-sizing: border-box;
+  background-color: rgb(255, 233, 224);
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.about-content {
+  flex: 1;
+  text-align: left;
+}
+
+.about-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1.2rem;
+  line-height: 1.2;
+}
+
+.about-subtitle {
+  font-size: 1.15rem;
+  color: #4a4a4a;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.about-btn {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: background-color 0.2s ease;
+
+}
+
+.about-btn:hover {
+  background-color: orangered;
+}
+
+.about-image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 50%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 2px solid black;
+  padding: 2px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 900px) {
+  .about-container {
+    flex-direction: column-reverse;
+    gap: 2.5rem;
+  }
+
+  .about-section {
+    padding: 3rem 2rem;
+  }
+
+  .about-title {
+    font-size: 2.2rem;
+  }
+}
+
+/* Underline styling specifically for Shiv Shakti */
+.highlight-text {
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 10px;
+}

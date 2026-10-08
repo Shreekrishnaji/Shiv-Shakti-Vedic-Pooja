@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+  font-family: "Bricolage Grotesque", Lora;
+  padding: 0;
+  margin: 0;
+  /* color: #180049 !important; */
+}
+
+body {
+  /* background-color: #D9D6FF; */
+}
